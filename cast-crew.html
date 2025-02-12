@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music — Digital Physics</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #000;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            padding: 1rem;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .music-section {
+            margin: 2rem 0;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        .image-grid img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background: #000;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/img/Digital+Physics+text+logo.jpg" alt="Digital Physics Logo" style="max-width: 300px">
+        <div>a movie, a video game, a theory</div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="synopsis.html">Synopsis</a></li>
+            <li><a href="stills.html">Stills</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="cast-crew.html">Cast-Crew</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <img src="/img/digital+physics+cast+and+crew+pic.jpg" alt="Cast & Crew" style="max-width: 400px">
+        <p>HAIG HOVNANIAN (Khatchig)</p>
+        <p>MIKE POLIZZE (Band)</p>
+        <p>ERIKA CAZENEUNE (Groupie)</p>
+        <p>MARK DEMICCO (Record Executive)</p>
+        <p>ALEXANDRA HELLQUIST (Jacqueline)</p>
+        <p>MAX KOLBY (Maxxie)</p>
+        <p>JONATHAN RENTLER (Bunkmate)</p>
+        <p>NATALIIA PESTELL (Beer Tapping Girl)</p>
+        <p>MIKE WHITE (Pie Cutter)</p>
+        <p>MONTY (Euclid)</p>
+        <p>JUDY CHEN (Bartender)</p>
+        <p>CARLY REHM (Bartender)</p>
+        <p>SHEILA MOIKANGOA (City Tech Student)</p>
+        <p>GREG WASHBURN (8mm Filmmaker)</p>
+        <p>KOJI OHASHI (Arcade Patron)</p>
+        <p>JERILYN SACKLER (Knife Woman)</p>
+        <p>JASMINE COLE (Laundromat Patron)</p>
+        <p>PETER PAPADOPOULOS (Flip Book Boy)</p>
+        <p>ELISHA LAWSON (Dancing Couple)</p>
+        <p>MICHAEL LUBLIN (Pedestrian)</p>
+        <p>ALESANDRO DE SOTO (Pedestrian)</p>
+        <p>GEORGIA ANDRE (Pedestrian)</p>
+        <p>NICK SHAKARJIAN (Hostel Traveler)</p>
+        <p>LAUREN DIBELLO (Hostel Traveler)</p>
+        <p>KURT PIERCE (Hostel Traveler)</p>
+        <p>GRANT MELLON (Hostel Traveler)</p>
+        <p>MATTHEW PERRY (Hostel Traveler)</p>
+        <p>JON FREDA (Dr. Mercury Jhaitin)</p>
+        <p>MIKE SNEERINGER (Band)</p>
+        <p>KAITLIN RUZSIK (Groupie)</p>
+        <p>RON BRITT (RV Driver)</p>
+        <p>ALYSSA LOMUSCIO (First Traveler)</p>
+        <p>RYAN COOPER (Roy)</p>
+        <p>ALEJANDRO STEIN (Sergey)</p>
+        <p>DANIEL GREY (Muscular Boyfriend)</p>
+        <p>IAN STEWART (Orange Eater)</p>
+        <p>JESSICA M’SIHID (Bartender)</p>
+        <p>KATHINKA VAN PUTTEN (Bartender)</p>
+        <p>MAURICIO HIDALGO (Couch Flirt)</p>
+        <p>NENAD ZEZELJ (Computer Playing Twins)</p>
+        <p>DAVID LAM (Arcade Patron)</p>
+        <p>CHEN DRACMAN (Recorder Player)</p>
+        <p>EVE YOUNG (City Tech Admin)</p>
+        <p>RANDALL LEVIN (Laundromat Patron)</p>
+        <p>SARAH JOY GALLARDO (Girl On Bike Pegs)</p>
+        <p>MARIA BRUUN (Dancing Couple)</p>
+        <p>NINA LUKASHOVA (Pedestrian)</p>
+        <p>BRIAN BUZARD (Pedestrian)</p>
+        <p>LOUISA KHANLIAN (Pedestrian)</p>
+        <p>NATHANIEL MANNING (Hostel Traveler)</p>
+        <p>MARCELA RUIZ (Hostel Traveler)</p>
+        <p>IAN LYNCH (Hostel Traveler)</p>
+        <p>GREYBIN AGRAMONTE (Hostel Traveler)</p>
+        <p>SERGEY GRAVILIN (Band)</p>
+        <p>LAURIEL FRIEDMAN (Groupie)</p>
+        <p>KAITLIN MCKEOWN (Groupie)</p>
+        <p>DAVID FENN (Homeless Man)</p>
+        <p>ALI BOULEMDARAT (French Traveler)</p>
+        <p>CARMEN CABRERA (Lana)</p>
+        <p>ALEX MAYZIN (Constantine)</p>
+        <p>SPENCER SCOTT GOLD (Pie Eater)</p>
+        <p>ELAINE LIEBMANN (Mrs. Jhaitin)</p>
+        <p>BERNADETTE CONATY (Bartender)</p>
+        <p>CAROLINE GOMBE (Bartender)</p>
+        <p>CHAD VEGA (Bodega Owner)</p>
+        <p>MILOSH ZEZELJ (Computer Playing Twins)</p>
+        <p>ANDY ZOU (Arcade Patron)</p>
+        <p>RICHARD PERNA (Food Truck Chef)</p>
+        <p>LUNIE JULES (Laundromat Patron)</p>
+        <p>ALICE CHAN (Laundromat Patron)</p>
+        <p>JOHN KHANLIAN (Pedestrian)</p>
+        <p>MEGAN DIBELLO (Pedestrian)</p>
+        <p>RYAN DREYER (Pedestrian)</p>
+        <p>TERENCE MCNICHOLAS (Pedestrian)</p>
+        <p>STEVE SAX (Hostel Traveler)</p>
+        <p>CELINA SANTORY (Hostel Traveler)</p>
+        <p>ILONA GERMANOTTA (Hostel Traveler)</p>
+        <p>MALIKA LEWIS (Hostel Traveler)</p>
+        <p>Courtney Pruden (Pedestrian)</p>
+        <p>JONATHAN KHANLIAN (Writer, Director, & Producer)</p>
+        <p>JESSE BAXTER (Casting Director & Producer)</p>
+        <p>LAUREN DIBELLO (Wardrobe Stylist)</p>
+        <p>CELINA SANTORY (Hair & Makeup)</p>
+        <p>ALYSSA LOMUSCIO (Grip)</p>
+        <p>LEAH TEPPERMAN (Production Assistant)</p>
+        <p>MOLLY MOSER (Storyboard Artist)</p>
+        <p>LAUREN KOLESINSKAS (Hostel Set Decoration)</p>
+        <p>EMUE (Game Of Life Simulations W/ Golly)</p>
+        <p>ELEN’S KIDS (Child Casting Agency)</p>
+        <p>JOHN KHANLIAN (Prop Donations)</p>
+        <p>MARCUM LLP (Accountants)</p>
+        <p>CHRIS KENT (Production Designer)</p>
+        <p>MARY BAXTER (Talent Services & Producer)</p>
+        <p>MARC KROLL (Gaffer)</p>
+        <p>JORDAN YOST (U.P.M.)</p>
+        <p>BIANCA BUNIER (Fixer)</p>
+        <p>IAN STEWART (Intern)</p>
+        <p>CARLY REHM (Wardrobe Stylist Assistant)</p>
+        <p>MARK SLOAN (Hostel Bar Construction)</p>
+        <p>MAHAMED SAAD (Tour Van)</p>
+        <p>ALICE CHAN (3D Modeling)</p>
+        <p>DAVID KHANLIAN (Prop Donations)</p>
+        <p>JANET KHANLIAN (Prop Donations)</p>
+        <p>ABS PAYROLL (Sag Payroll)</p>
+        <p>PEAR NERNGCHAMNONG (Line Producer & A.D.)</p>
+        <p>DAWN MICHELLE CAMERON (Producer)</p>
+        <p>MCGRAW WOLFMAN (Assistant Camera)</p>
+        <p>MARCELA RUIZ (Hair & Makeup)</p>
+        <p>ZACH KHANLIAN (Boom Operator)</p>
+        <p>ROCIO RUIZ DE AZUA (Assistant Editor)</p>
+        <p>KEVIN DUFFY (Location Scout)</p>
+        <p>RACHELLE MURO (Hostel Set Decoration)</p>
+        <p>BRYANT VANCE (Casting Production Assistant)</p>
+        <p>FREESFX.CO.UK (Sfx)</p>
+        <p>JEN HILINSKI (Prop Donations)</p>
+        <p>LOUISA KHANLIAN (Prop Donations)</p>
+    </div>
+
+    <footer>
+        <p>Copyright Digital Physics the Movie, LLC &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Philadelphia Philms</p>
+    </footer>
+</body>
+</html>
