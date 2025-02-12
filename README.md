@@ -1,1 +1,1 @@
-This is a basic website for Digital Physics. Nothing fancy. No minification or obfuscation. Basic html js css in one html file per page.
+This is a basic website for Digital Physics. Nothing fancy. Images and loading not optimized. Format not that great. No minification or obfuscation. Basic html js css in one html file per page. 
